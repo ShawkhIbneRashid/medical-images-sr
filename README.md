@@ -1,7 +1,7 @@
 <html>
 <body>
   <h3>Super-resolution using Real-ESRGAN and ESRGAN in Medical Images</h3>
-<p align="justify">We have used Real-ESRGAN and ESRGAN model for resolution enhancement in medical images. The code for Real-ESRGAN was taken from https://github.com/xinntao/Real-ESRGAN and for ESRGAN we have taken the code from https://github.com/eriklindernoren/PyTorch-GAN/tree/master/implementations/esrgan. We have changed the codes from these repository to train the models for medical images. For Real-ESRGAN we have changed the input and output channel to one and the generation of LR images. The changes are reflected in the given codes. In the Real-ESRGAN code repository folder, replace the files realesrgan_dataset.py, realesrgan_model.py, train_realesrgan_x4plus.yml and utils.py. </p>
+<p align="justify">We have used Real-ESRGAN and ESRGAN model for resolution enhancement in medical images. The code for Real-ESRGAN was taken from https://github.com/xinntao/Real-ESRGAN and for ESRGAN we have taken the code from https://github.com/eriklindernoren/PyTorch-GAN/tree/master/implementations/esrgan. We have changed the codes from these repositories to train the models for medical images. For Real-ESRGAN we have changed the input and output channel to one and the generation of LR images. The changes are reflected in the given codes. In the Real-ESRGAN code repository folder, replace the files realesrgan_dataset.py, realesrgan_model.py, train_realesrgan_x4plus.yml and utils.py. </p>
 <h4>LR Image Generation</h4>
   <p align="justify">
 First, we performed FFT to convert the image to frequency domain where we made the
